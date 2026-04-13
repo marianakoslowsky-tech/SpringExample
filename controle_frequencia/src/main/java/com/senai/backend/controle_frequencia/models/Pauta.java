@@ -1,4 +1,4 @@
-package com.senai.backend.models;
+package com.senai.backend.controle_frequencia.models;
 
 import java.util.List;
 

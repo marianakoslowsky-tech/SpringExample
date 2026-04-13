@@ -1,9 +1,9 @@
-package com.senai.backend.repositories;
+package com.senai.backend.controle_frequencia.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.senai.backend.models.Pauta;
+import com.senai.backend.controle_frequencia.models.Pauta;
 
 @Repository
 public interface Pautarepository extends JpaRepository <Pauta, Integer> {

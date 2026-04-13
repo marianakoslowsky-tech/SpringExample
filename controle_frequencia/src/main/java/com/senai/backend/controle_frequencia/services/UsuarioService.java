@@ -1,12 +1,12 @@
-package com.senai.backend.repositories.services;
+package com.senai.backend.controle_frequencia.services;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.senai.backend.models.Usuario;
-import com.senai.backend.repositories.UsuarioRepository;
+import com.senai.backend.controle_frequencia.models.Usuario;
+import com.senai.backend.controle_frequencia.repositories.UsuarioRepository;
 
 @Service
 public class UsuarioService {
